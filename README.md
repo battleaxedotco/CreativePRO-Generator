@@ -47,6 +47,29 @@ node ./bin/index.js
 
 ---
 
+## What about publishing?
+
+All done? Next step is simply to modify your package.json's name, then run `npm publish` to create it as a new node module.
+
+From here, your usage would either be:
+
+```bash
+# Execute package binary, skip install and invoke it in a single command:
+npx [package-name]
+```
+
+Or install it globally and invoke it like so:
+
+```bash
+# Install:
+npm i -g [package-name]
+
+# Invoke as shell command:
+adobe
+```
+
+---
+
 ## I'm done. What now?
 
 - Show us what you made
